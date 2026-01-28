@@ -56,43 +56,6 @@ This dashboard aggregates financial data from multiple sources to provide real-t
 | News Data | Finnhub API |
 | Stock Lists | Wikipedia (S&P 500, NASDAQ-100, DJIA) |
 
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/us-stock-analytics-dashboard.git
-cd us-stock-analytics-dashboard
-```
-
-2. Install dependencies:
-```bash
-pip install streamlit pandas numpy plotly yfinance requests
-```
-
-3. Run the application:
-```bash
-streamlit run Test_Run2.py
-```
-
-4. Open your browser and navigate to `http://localhost:8501`
-
-## Project Structure
-
-```
-us-stock-analytics-dashboard/
-│
-├── Test_Run2.py          # Main application file (~5,600 lines)
-├── README.md             # Project documentation
-├── .gitignore            # Git ignore file
-└── requirements.txt      # Python dependencies
-```
-
 ## Data Sources
 
 | Source | Data Provided | Update Frequency |
@@ -119,19 +82,6 @@ Headlines are classified using keyword-based analysis:
 - Companies with ≤2% share grouped into "Others"
 - Selected company highlighted with distinct colour
 
-## API Configuration
-
-The application uses Finnhub for news data. The API key is configured in the code:
-```python
-FINNHUB_API_KEY = "your_api_key_here"
-```
-
-Get a free API key at [finnhub.io](https://finnhub.io/) (60 calls/minute on free tier).
-
-## Screenshots
-
-*Dashboard screenshots to be added*
-
 ## Known Limitations
 
 - News data requires Finnhub API key
@@ -147,14 +97,6 @@ Get a free API key at [finnhub.io](https://finnhub.io/) (60 calls/minute on free
 - [ ] Options chain analysis
 - [ ] Peer comparison tables
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgements
 
 - [Streamlit](https://streamlit.io/) for the web framework
@@ -164,11 +106,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-[Your Name]
+Sethmika Dias
 
-## Contact
 
-For questions or feedback, please open an issue on GitHub.
-
----
 *Last updated: January 2025*
