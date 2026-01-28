@@ -89,11 +89,9 @@ Headlines are classified using keyword-based analysis:
 
 ## Future Enhancements
 
-- [ ] Portfolio tracking functionality
 - [ ] Watchlist feature
 - [ ] Email alerts for price movements
 - [ ] Enhanced ML-based sentiment analysis
-- [ ] Options chain analysis
 - [ ] Peer comparison tables
 
 ## Acknowledgements
